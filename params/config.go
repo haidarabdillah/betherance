@@ -25,9 +25,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 )
 
-// Genesis hashes to enforce below configs on.
+// TODO Change Genesis hashes to enforce below configs on.
 var (
-	MainnetGenesisHash = common.HexToHash("0x927cb07d4186f6225b7989c136514c1260acc000765f6b7e04ea5f0c82107ea8")
+	MainnetGenesisHash = common.HexToHash("0x816b8f7fdbf4cadfc8b1af0b2cc9b03711a07c5d04b4e6097ff0fa03cee5562f")
 	TestnetGenesisHash = common.HexToHash("0xdad9d49cb01369e43d1150724afcbb829ab9ab8170edf89d736b88656f44b555")
 )
 

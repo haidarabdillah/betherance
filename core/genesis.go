@@ -334,9 +334,9 @@ func DefaultGenesisBlock() *Genesis {
 		ExtraData:  params.ExtraDataMainnet,
 		GasLimit:   0x47b760,
 		Difficulty: big.NewInt(1),
-		Timestamp:  0x63edef1c,
+		Timestamp:  0x64bf615b,
 		Alloc: map[common.Address]GenesisAccount{
-			params.GenesisAccountMainnet:   {Balance: new(big.Int).Mul(big.NewInt(100000000000), big.NewInt(1e18))},
+			params.GenesisAccountMainnet:   {Balance: new(big.Int).Mul(big.NewInt(999999999), big.NewInt(1e18))},
 			params.AddressListContractAddr: {Balance: new(big.Int), Code: params.AddressListContractCodeMainnet},
 			params.IncentiveContractAddr:   {Balance: new(big.Int), Code: params.IncentiveContractCodeMainnet},
 			params.ProposalContractAddr:    {Balance: new(big.Int), Code: params.ProposalContractCodeMainnet},
@@ -356,7 +356,7 @@ func DefaultTestnetGenesisBlock() *Genesis {
 		Difficulty: big.NewInt(1),
 		Timestamp:  0x62a7e8c5,
 		Alloc: map[common.Address]GenesisAccount{
-			params.GenesisAccountTestnet:   {Balance: new(big.Int).Mul(big.NewInt(100000000), big.NewInt(1e18))},
+			params.GenesisAccountTestnet:   {Balance: new(big.Int).Mul(big.NewInt(999999999), big.NewInt(1e18))},
 			params.AddressListContractAddr: {Balance: new(big.Int), Code: params.AddressListContractCodeTestnet},
 			params.IncentiveContractAddr:   {Balance: new(big.Int), Code: params.IncentiveContractCodeTestnet},
 			params.ProposalContractAddr:    {Balance: new(big.Int), Code: params.ProposalContractCodeTestnet},

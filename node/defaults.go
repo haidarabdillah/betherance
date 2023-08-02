@@ -36,7 +36,7 @@ const (
 	DefaultGraphQLPort = 8547        // Default TCP port for the GraphQL server
 )
 
-// DefaultConfig contains reasonable default settings.
+// TODO change on mainnet DefaultConfig contains reasonable default settings.
 var DefaultConfig = Config{
 	DataDir:             DefaultDataDir(),
 	HTTPPort:            DefaultHTTPPort,
@@ -47,7 +47,7 @@ var DefaultConfig = Config{
 	WSModules:           []string{"net", "web3"},
 	GraphQLVirtualHosts: []string{"localhost"},
 	P2P: p2p.Config{
-		ListenAddr: ":31288",
+		ListenAddr: ":1602",
 		MaxPeers:   50,
 		NAT:        nat.Any(),
 	},
