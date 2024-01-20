@@ -354,7 +354,7 @@ func DefaultTestnetGenesisBlock() *Genesis {
 		ExtraData:  params.ExtraDataTestnet,
 		GasLimit:   0x47b760,
 		Difficulty: big.NewInt(1),
-		Timestamp:  0x62a7e8c5,
+		Timestamp:  0x65a936e2,
 		Alloc: map[common.Address]GenesisAccount{
 			params.GenesisAccountTestnet:   {Balance: new(big.Int).Mul(big.NewInt(999999999), big.NewInt(1e18))},
 			params.AddressListContractAddr: {Balance: new(big.Int), Code: params.AddressListContractCodeTestnet},

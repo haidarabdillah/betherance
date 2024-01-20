@@ -36,9 +36,9 @@ var MainnetBootnodes = []string{
 }
 var TestnetBootnodes = []string{
 
-	"enode://1017f5dbef67b8ba1f7a93d50bc0d0eef4aa9aa1a424e50b19c241a529005a4707fdf70d7ea79a67b0ad0bafeac8a5013952e08a1404c1ba2a65a9051e2f6011@65.20.84.48:2002",
-	"enode://9b6eb8f4ae74a5dc6cc2371ba350e7359270fd3c3693993d48b3a69aaf3005b1ffce24175b39080413f245f81b0050f49cf1777a2a3dbbd89768f6c93b0690be@65.20.81.30:2002",
-	"enode://44d7045ca587ffef397454d76df761bd1e655dea3c76afca8dae0346aab1b1a4faddd897239e46c20f47b081f897b006809f3a48f4ea32e1f8feeed0060081a0@65.20.83.193:2002",
+	"enode://1017f5dbef67b8ba1f7a93d50bc0d0eef4aa9aa1a424e50b19c241a529005a4707fdf70d7ea79a67b0ad0bafeac8a5013952e08a1404c1ba2a65a9051e2f6011@65.20.84.48:1602",
+	"enode://9b6eb8f4ae74a5dc6cc2371ba350e7359270fd3c3693993d48b3a69aaf3005b1ffce24175b39080413f245f81b0050f49cf1777a2a3dbbd89768f6c93b0690be@65.20.81.30:1602",
+	"enode://44d7045ca587ffef397454d76df761bd1e655dea3c76afca8dae0346aab1b1a4faddd897239e46c20f47b081f897b006809f3a48f4ea32e1f8feeed0060081a0@65.20.83.193:1602",
 }
 // KnownDNSNetwork returns the address of a public DNS-based node list for the given
 // genesis hash and protocol. See https://github.com/ethereum/discv4-dns-lists for more
